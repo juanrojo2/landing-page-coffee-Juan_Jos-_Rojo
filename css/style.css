@@ -21,17 +21,17 @@
 }
 @media(max-width:774px){
     [class*="width-cards"]{
-        width: 30rem;
+        width: 28rem;
     }
 }
 @media(max-width:537px){
     [class*="width-cards"]{
-        width: 27rem;
+        width: 25rem;
     }
 }
 @media(max-width:484px){
     [class*="width-cards"]{
-        width: 20rem;
+        width: 18rem;
     }
 }
 @media(max-width:369px){
