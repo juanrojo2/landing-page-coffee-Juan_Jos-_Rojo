@@ -1,24 +1,30 @@
 .slider-height{
     height: 100vh;
 }
-h5{
-    font-size: 4rem; 
-    color: black; 
-}
-.p-nav{
-    font-size: 2rem;
-    color: black; 
-}
-.change-color{
-    color: white;
-}
 @media(max-width:1024px){
     [class*="slider-height"] {
         height: 100%;
   }
 }
+.width-cards{
+    width: 28rem;
+}
+/* @media(max-width:995px){
+    [class*="width-cards"]{
+        width: 40rem;
+    }
+}
+@media(max-width:800px){
+    [class*="width-cards"]{
+        width: 20rem;
+    }
+} */
+.p-nav{
+    font-size: 2rem;
+    color: black; 
+}
 .dropdown-item:hover, .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
     background-color: #161515ce;
-  }
+}
