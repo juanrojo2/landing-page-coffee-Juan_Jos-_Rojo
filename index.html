@@ -33,9 +33,9 @@
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">Productos</a>
                         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item text-white" href="#">Consolas</a>
-                        <a class="dropdown-item text-white" href="#">Juegos</a>
-                        <a class="dropdown-item text-white" href="#">Accesorios</a>
+                        <a class="dropdown-item text-white" href="#consolas">Consolas</a>
+                        <a class="dropdown-item text-white" href="#videojuegos">Juegos</a>
+                        <a class="dropdown-item text-white" href="#accesorios">Accesorios</a>
                         </div>
                     </li>
                 </ul>
@@ -43,15 +43,14 @@
                   <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">Especificaciones</a>
                       <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink2">
-                      <a class="dropdown-item text-white" href="#">Consolas</a>
-                      <a class="dropdown-item text-white" href="#">Accesorios</a>
+                      <a class="dropdown-item text-white" href="#espe-consolas">Consolas</a>
                       </div>
                   </li>
               </ul>
             </div>
             <div class="d-flex flex-row justify-content-center">
-                <a href="#" class="btn btn-outline-primary mr-2">Twitter</a>
-                <a href="#" class="btn btn-outline-danger ml-2">Instagram</a>
+                <a href="https://twitter.com/playstation_la?lang=es" class="btn btn-outline-primary mr-2">Twitter</a>
+                <a href="https://www.instagram.com/playstation/?hl=es-la" class="btn btn-outline-danger ml-2">Instagram</a>
             </div>
             </div>
         </nav>
@@ -97,12 +96,12 @@
     </section>
     <!-- Fin carousel -->
 
-    <div class="container text-center mt-4 p-3">
+    <div class="container text-center mt-4 p-3 border-primary rounded">
       <h1 class="font-weight-bold">Productos</h1>
     </div>
 
     <!-- Inicio cards-->
-    <section class="container">
+    <section class="container" id="consolas">
       <!-- Inicio cards consolas-->
       <div>
         <h3 class="border border-primary rounded text-center">Consolas</h3>
@@ -140,7 +139,7 @@
 
       <!-- Inicio cards videojuegos -->
       <div>
-        <h3 class="border border-warning rounded text-center">Videojuegos</h3>
+        <h3 class="border border-warning rounded text-center" id="videojuegos">Videojuegos</h3>
         <div class="container mt-3 p-4">
           <div class="row">
             <div class="col-12 col-lg-6 mb-4">
@@ -222,7 +221,7 @@
 
       <!-- Inicio cards accesorios -->
       <div>
-        <h3 class="border border-danger rounded text-center">Accesorios</h3>
+        <h3 class="border border-danger rounded text-center" id="accesorios">Accesorios</h3>
         <div class="container mt-3 p-4">
           <div class="row">
             <div class="col-12 col-lg-6 mb-4">
@@ -257,7 +256,7 @@
     <!-- Fin cards-->
 
     <div class="container text-center mt-4 p-3">
-      <h1 class="font-weight-bold">Especificaciones</h1>
+      <h1 class="font-weight-bold" id="espe-consolas">Especificaciones</h1>
     </div>
     <!-- Incio tablas -->
     <section class="container">
@@ -268,70 +267,31 @@
       <table class="table">
         <thead class="thead-dark">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Play</th>
+            <th scope="col">Año</th>
+            <th scope="col">Procesador</th>
+            <th scope="col">Transmición de imagen</th>
+            <th scope="col">Almacenamiento</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">PS4</th>
+            <td>2013</td>
+            <td>Microprocesador tipo APU de ocho núcleos x86-64 a 1.6 GHZ fabricado por AMD</td>
+            <td>60fps hasta 4K</td>
+            <td>Hasta 1tb de Almacenamiento</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">PS5</th>
+            <td>2020</td>
+            <td>Microprocesador AMD Zen 2 de 8 núcleos a 3.5 GHz</td>
+            <td>120fps a 120hz hasta resolución 4K</td>
+            <td>Hasta 1tb de Almacenamiento</td>
           </tr>
         </tbody>
       </table>
       <!-- Fin tabla Consolas -->
-
-      <!-- Inicio tabla Accesorios -->
-      <div class="container">
-        <h3 class="border border-danger rounded text-center">Especificaciones accesorios</h3>
-      </div>
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      <!-- Fin tabla Accesorios -->
     </section>
     <!-- Fin tablas -->
 
