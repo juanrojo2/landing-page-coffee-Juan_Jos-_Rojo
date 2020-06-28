@@ -7,18 +7,38 @@
   }
 }
 .width-cards{
-    width: 28rem;
+    width: 30rem;
 }
-/* @media(max-width:995px){
+@media(max-width:1195px){
+    [class*="width-cards"]{
+        width: 27rem;
+    }
+}
+@media(max-width:989px){
     [class*="width-cards"]{
         width: 40rem;
     }
 }
-@media(max-width:800px){
+@media(max-width:774px){
+    [class*="width-cards"]{
+        width: 30rem;
+    }
+}
+@media(max-width:537px){
+    [class*="width-cards"]{
+        width: 27rem;
+    }
+}
+@media(max-width:484px){
     [class*="width-cards"]{
         width: 20rem;
     }
-} */
+}
+@media(max-width:369px){
+    [class*="width-cards"]{
+        width: 15rem;
+    }
+}
 .p-nav{
     font-size: 2rem;
     color: black; 
